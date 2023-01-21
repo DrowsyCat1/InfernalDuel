@@ -7153,3 +7153,122 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.01.21-05.05.00:798][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.01.21-05.05.00:803][595]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
 [2023.01.21-05.05.00:855][596]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2023.01.21-05.09.53:723][612]BlueprintLog: New page: Compile BP_PlayerController
+[2023.01.21-05.09.53:835][612]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2023.01.21-05.09.54:234][629]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.21-05.09.54:286][629]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_PlayerController
+[2023.01.21-05.09.54:288][629]LogSavePackage: Moving '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Saved/BP_PlayerController67C3BA984ACD278F24555EAE71973245.tmp' to '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/Blueprints/Player/BP_PlayerController.uasset'
+[2023.01.21-05.09.54:295][629]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 9.36 sec)
+[2023.01.21-05.09.54:309][629]AssetCheck: New page: Asset Save: BP_PlayerController
+[2023.01.21-05.09.54:310][629]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController
+[2023.01.21-05.10.00:933][ 15]BlueprintLog: New page: Compile BP_BaseCharacter
+[2023.01.21-05.10.01:075][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.01.21-05.10.01:387][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.21-05.10.01:453][ 31]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_BaseCharacter
+[2023.01.21-05.10.01:454][ 31]LogSavePackage: Moving '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Saved/BP_BaseCharacter65B621BD48B90DC7EE94C39895852B57.tmp' to '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/Blueprints/Player/BP_BaseCharacter.uasset'
+[2023.01.21-05.10.01:462][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 9.44 sec)
+[2023.01.21-05.10.01:476][ 31]AssetCheck: New page: Asset Save: BP_BaseCharacter
+[2023.01.21-05.10.01:476][ 31]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_BaseCharacter.BP_BaseCharacter
+[2023.01.21-05.10.03:670][160]BlueprintLog: New page: Compile BP_InfernalDuel_GameMode
+[2023.01.21-05.10.03:765][160]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.01.21-05.10.04:054][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.21-05.10.04:094][174]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_InfernalDuel_GameMode
+[2023.01.21-05.10.04:095][174]LogSavePackage: Moving '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Saved/BP_InfernalDuel_GameMode6BB493C9462C303D0AF90ABC17E73A2D.tmp' to '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/Blueprints/BP_InfernalDuel_GameMode.uasset'
+[2023.01.21-05.10.04:106][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 9.49 sec)
+[2023.01.21-05.10.04:121][174]AssetCheck: New page: Asset Save: BP_InfernalDuel_GameMode
+[2023.01.21-05.10.04:121][174]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_InfernalDuel_GameMode.BP_InfernalDuel_GameMode
+[2023.01.21-05.10.05:982][283]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.21-05.10.06:009][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_InfernalDuel" FILE="../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/Input/IMC_InfernalDuel.uasset" SILENT=true
+[2023.01.21-05.10.06:013][283]LogSavePackage: Moving output files for package: /Game/Input/IMC_InfernalDuel
+[2023.01.21-05.10.06:014][283]LogSavePackage: Moving '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Saved/IMC_InfernalDuelD6F1D96F45214E2A3673B289B882B135.tmp' to '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/Input/IMC_InfernalDuel.uasset'
+[2023.01.21-05.10.06:030][283]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 9.54 sec)
+[2023.01.21-05.10.06:046][283]AssetCheck: New page: Asset Save: IMC_InfernalDuel
+[2023.01.21-05.10.06:046][283]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_InfernalDuel.IMC_InfernalDuel
+[2023.01.21-05.10.07:362][356]BlueprintLog: New page: Compile BP_PlayerSpawns
+[2023.01.21-05.10.07:462][356]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.01.21-05.10.07:740][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.21-05.10.07:785][369]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_PlayerSpawns
+[2023.01.21-05.10.07:791][369]LogSavePackage: Moving '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Saved/BP_PlayerSpawns53130B964503D9B191640AAE3202C680.tmp' to '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/Blueprints/Player/BP_PlayerSpawns.uasset'
+[2023.01.21-05.10.07:800][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 9.60 sec)
+[2023.01.21-05.10.07:819][369]AssetCheck: New page: Asset Save: BP_PlayerSpawns
+[2023.01.21-05.10.07:819][369]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_PlayerSpawns.BP_PlayerSpawns
+[2023.01.21-05.10.09:333][457]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.21-05.10.09:369][457]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_Player1_Move
+[2023.01.21-05.10.09:370][457]LogSavePackage: Moving '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Saved/IA_Player1_MoveE5A60D6C411740FEA4B932A31E746CF1.tmp' to '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/Input/Actions/IA_Player1_Move.uasset'
+[2023.01.21-05.10.09:376][457]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 9.64 sec)
+[2023.01.21-05.10.09:391][457]AssetCheck: New page: Asset Save: IA_Player1_Move
+[2023.01.21-05.10.09:391][457]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Input/Actions/IA_Player1_Move.IA_Player1_Move
+[2023.01.21-05.10.10:781][528]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.01.21-05.10.10:931][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.01.21-05.10.11:153][536]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.21-05.10.11:223][536]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.01.21-05.10.11:224][536]LogSavePackage: Moving '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Saved/BP_ThirdPersonCharacter06D01A1644DC744A0C0D2AA4CE420A8A.tmp' to '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.01.21-05.10.11:232][536]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 9.72 sec)
+[2023.01.21-05.10.11:248][536]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.01.21-05.10.11:248][536]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.01.21-05.10.12:744][622]LogMaterialEditor: Saving and Compiling material M_Player1Spawn
+[2023.01.21-05.10.12:745][622]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.21-05.10.12:785][622]LogSavePackage: Moving output files for package: /Game/Materials/Utility/M_Player1Spawn
+[2023.01.21-05.10.12:786][622]LogSavePackage: Moving '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Saved/M_Player1SpawnFA469F20404FBB91F359A29B22CDAF7F.tmp' to '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/Materials/Utility/M_Player1Spawn.uasset'
+[2023.01.21-05.10.12:794][622]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 9.77 sec)
+[2023.01.21-05.10.12:815][622]AssetCheck: New page: Asset Save: M_Player1Spawn
+[2023.01.21-05.10.12:815][622]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Utility/M_Player1Spawn.M_Player1Spawn
+[2023.01.21-05.10.14:315][706]LogMaterialEditor: Saving and Compiling material M_Player2Spawn
+[2023.01.21-05.10.14:316][706]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.21-05.10.14:354][706]LogSavePackage: Moving output files for package: /Game/Materials/Utility/M_Player2Spawn
+[2023.01.21-05.10.14:355][706]LogSavePackage: Moving '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Saved/M_Player2Spawn5C6DCD224BE36F27750321B527519A49.tmp' to '../../../../../Users/logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/Materials/Utility/M_Player2Spawn.uasset'
+[2023.01.21-05.10.14:363][706]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 9.82 sec)
+[2023.01.21-05.10.14:376][706]AssetCheck: New page: Asset Save: M_Player2Spawn
+[2023.01.21-05.10.14:376][706]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Utility/M_Player2Spawn.M_Player2Spawn
+[2023.01.21-05.10.17:834][911]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.21-05.10.17:842][911]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.01.21-05.10.17:843][911]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.21-05.10.17:843][911]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.21-05.10.17:843][911]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 471 us)
+[2023.01.21-05.10.17:843][911]LogWorldPartition: Display: GenerateStreaming took 218 us (total: 18 ms)
+[2023.01.21-05.10.17:845][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.21-05.10.17:845][911]PIE: New page: PIE session: ThirdPersonMap (Jan 20, 2023, 5:10:17 PM)
+[2023.01.21-05.10.17:845][911]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.21-05.10.17:848][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002854s)
+[2023.01.21-05.10.17:849][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002881s)
+[2023.01.21-05.10.17:849][911]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.21-05.10.17:849][911]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.21-05.10.17:849][911]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.01.21-05.10.17:849][911]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.21-05.10.17:849][911]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.01.21-05.10.17:850][911]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.01.21-05.10.17:850][911]LogWorldPartition: Display: WorldPartition initialize took 721 us (total: 102 ms)
+[2023.01.21-05.10.17:850][911]LogPlayLevel: PIE: World Init took: (0.001475s)
+[2023.01.21-05.10.17:922][911]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.01.21-05.10.17:927][911]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2023.01.21-05.10.17:927][911]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.21-05.10.17:927][911]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.21-05.10.17:927][911]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.21-05.10.17:927][911]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.21-05.10.17:927][911]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.21-05.10.17:927][911]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.21-05.10.17:927][911]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.21-05.10.17:927][911]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.21-05.10.17:927][911]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.21-05.10.17:928][911]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.21-05.10.17:928][911]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.21-05.10.17:931][911]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.21-05.10.17:976][911]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7+)
+[2023.01.21-05.10.17:976][911]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.21-05.10.17:976][911]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.21-05.10.17:976][911]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.21-05.10.17:977][911]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2023.01.21-05.10.17:977][911]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2023.01.21-05.10.17:978][911]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2023.01.21-05.10.17:978][911]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2023.01.21-05.10.17:978][911]LogInit: FAudioDevice initialized.
+[2023.01.21-05.10.17:978][911]LogAudio: Display: Audio Device (ID: 60) registered with world 'ThirdPersonMap'.
+[2023.01.21-05.10.17:981][911]LogLoad: Game class is 'BP_InfernalDuel_GameMode_C'
+[2023.01.21-05.10.17:982][911]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.01.20-23.10.17
+[2023.01.21-05.10.17:982][911]LogWorld: Bringing up level for play took: 0.001153
+[2023.01.21-05.10.17:983][911]LogOnline: OSS: Created online subsystem instance for: :Context_75
+[2023.01.21-05.10.17:986][911]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.01.21-05.10.17:986][911]LogWorldPartition: New Streaming Source: BP_PlayerController_C_0 -> Position: X=1590.000 Y=1390.000 Z=92.000
+[2023.01.21-05.10.17:988][911]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.01.21-05.10.17:988][911]PIE: Server logged in
+[2023.01.21-05.10.17:989][911]PIE: Play in editor total start time 0.147 seconds.
