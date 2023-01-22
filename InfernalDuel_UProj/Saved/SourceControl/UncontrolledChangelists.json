@@ -6,6 +6,28 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/InfernalDuel/InfernalDuel_UProj/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/Levels/Stages/TestStage.umap",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalActors__/Levels/Stages/ThirdPersonMap1/0/R9/PFDY93HG4VP7L1BKZH0GS3.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalObjects__/Levels/Stages/ThirdPersonMap1/2/84/CPPINL8KC2HI9V9VFNH0IL.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalObjects__/Levels/Stages/ThirdPersonMap1/7/ZQ/1P2XKCJWQ6M6BMGDAI5IAP.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalObjects__/Levels/Stages/ThirdPersonMap1/5/Y6/FT4Y0UPVX9TMMM06OG72C5.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalObjects__/Levels/Stages/ThirdPersonMap1/6/ZK/9PVSR847167Z7KYZBA3CZH.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalObjects__/Levels/Stages/ThirdPersonMap1/A/CV/XDLMCYNP36MME1IM3NYZGN.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalObjects__/Levels/Stages/ThirdPersonMap1/6/I6/YLWVVKH1WL9IYUKRBW08D2.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/Levels/Stages/ThirdPersonMap1.umap",
+				"D:/Epic Games/UE_5.1/Engine/Content/EditorMaterials/Camera/CineMat.uasset",
+				"D:/Epic Games/UE_5.1/Engine/Content/EditorMaterials/Thumbnails/FloorPlaneMaterial.uasset",
+				"D:/Epic Games/UE_5.1/Engine/Content/VREditor/TransformGizmo/Main.uasset",
+				"D:/Epic Games/UE_5.1/Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset",
+				"D:/Epic Games/UE_5.1/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset",
+				"D:/Epic Games/UE_5.1/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset",
+				"D:/Epic Games/UE_5.1/Engine/Content/VREditor/TransformGizmo/Xray.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/LevelPrototyping/Materials/M_TrainingLevel.uasset",
+				"D:/InfernalDuel/InfernalDuel_UProj/Content/Levels/Stages/TrainingStage.umap",
 				"C:/Users/Logan/Documents/GitHub/InfernalDuel/InfernalDuel_UProj/Content/StarterContent/Architecture/Floor_400x400.uasset"
 			]
 		}
