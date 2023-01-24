@@ -3448,3 +3448,1433 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.01.24-21.06.17:392][243]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Heaven/Textures/SM_Column_lambert1_OcclusionRoughnessMetallic.SM_Column_lambert1_OcclusionRoughnessMetallic
 [2023.01.24-21.06.17:392][243]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Stages/Heaven.Heaven
 [2023.01.24-21.06.17:392][243]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/Heaven/Mesh/SM_Column.SM_Column
+[2023.01.24-21.08.49:370][985]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.24-21.08.49:376][985]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.24-21.08.49:376][985]LogPlayLevel: [PlayLevel] Compiling Heaven before play...
+[2023.01.24-21.08.49:391][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.01.24-21.08.49:393][985]LogPlayLevel: PlayLevel: Blueprint regeneration took 16 ms (1 blueprints)
+[2023.01.24-21.08.49:393][985]PIE: New page: PIE session: Heaven (Jan 24, 2023, 9:08:49 AM)
+[2023.01.24-21.08.49:393][985]LogPlayLevel: Creating play world package: /Game/Levels/Stages/UEDPIE_0_Heaven
+[2023.01.24-21.08.49:395][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002271s)
+[2023.01.24-21.08.49:395][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Stages/Heaven.Heaven to /Game/Levels/Stages/UEDPIE_0_Heaven.Heaven (0.002299s)
+[2023.01.24-21.08.49:395][985]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.24-21.08.49:396][985]LogAIModule: Creating AISystem for world Heaven
+[2023.01.24-21.08.49:396][985]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2023.01.24-21.08.49:402][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.01.24-21.08.49:402][985]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.01.24-21.08.49:402][985]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.24-21.08.49:402][985]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.24-21.08.49:402][985]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.24-21.08.49:402][985]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.24-21.08.49:402][985]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.24-21.08.49:402][985]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.24-21.08.49:402][985]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.24-21.08.49:402][985]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.24-21.08.49:403][985]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.24-21.08.49:403][985]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.24-21.08.49:403][985]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.24-21.08.49:405][985]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.24-21.08.49:418][985]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB-C Audio)
+[2023.01.24-21.08.49:418][985]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.24-21.08.49:418][985]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.24-21.08.49:418][985]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.24-21.08.49:419][985]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.01.24-21.08.49:419][985]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.01.24-21.08.49:420][985]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.01.24-21.08.49:420][985]LogInit: FAudioDevice initialized.
+[2023.01.24-21.08.49:420][985]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.01.24-21.08.49:420][985]LogAudio: Display: Audio Device (ID: 5) registered with world 'Heaven'.
+[2023.01.24-21.08.49:423][985]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.24-21.08.49:425][985]LogWorld: Bringing World /Game/Levels/Stages/UEDPIE_0_Heaven.Heaven up for play (max tick rate 60) at 2023.01.24-15.08.49
+[2023.01.24-21.08.49:425][985]LogWorld: Bringing up level for play took: 0.002042
+[2023.01.24-21.08.49:427][985]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.01.24-21.08.49:432][985]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.49:432][985]PIE: Server logged in
+[2023.01.24-21.08.49:432][985]PIE: Play in editor total start time 0.057 seconds.
+[2023.01.24-21.08.49:433][985]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:084][ 20]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:101][ 21]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:127][ 22]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:142][ 23]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:158][ 24]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:175][ 25]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:193][ 26]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:209][ 27]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:225][ 28]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:243][ 29]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:258][ 30]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:276][ 31]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:292][ 32]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:309][ 33]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:325][ 34]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:343][ 35]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:358][ 36]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:376][ 37]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:392][ 38]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:409][ 39]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:426][ 40]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:442][ 41]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:459][ 42]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:475][ 43]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:493][ 44]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:509][ 45]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:525][ 46]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:542][ 47]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:559][ 48]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:576][ 49]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:592][ 50]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:609][ 51]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:626][ 52]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:643][ 53]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:659][ 54]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:676][ 55]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:692][ 56]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:708][ 57]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:725][ 58]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:742][ 59]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:759][ 60]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:776][ 61]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:792][ 62]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:809][ 63]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:825][ 64]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:842][ 65]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:859][ 66]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:875][ 67]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:892][ 68]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:909][ 69]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:925][ 70]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:942][ 71]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:959][ 72]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:976][ 73]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.50:992][ 74]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.51:009][ 75]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.51:026][ 76]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.51:042][ 77]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:060][318]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:077][319]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:094][320]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:109][321]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:126][322]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:143][323]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:159][324]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:176][325]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:193][326]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:210][327]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:226][328]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:243][329]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:260][330]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:277][331]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:293][332]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:310][333]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:326][334]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:343][335]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:360][336]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:377][337]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:393][338]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:410][339]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:426][340]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:443][341]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:460][342]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:477][343]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:493][344]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:510][345]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:526][346]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:543][347]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:560][348]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:576][349]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:593][350]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:609][351]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:626][352]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:643][353]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:659][354]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:677][355]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:693][356]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:709][357]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:726][358]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:744][359]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:760][360]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:777][361]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:793][362]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:809][363]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:826][364]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:844][365]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:860][366]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:877][367]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:893][368]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:910][369]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:926][370]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:943][371]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:960][372]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:976][373]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.55:992][374]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.56:010][375]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.56:026][376]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.08.56:043][377]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:063][618]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:079][619]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:096][620]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:113][621]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:130][622]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:146][623]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:163][624]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:180][625]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:196][626]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:212][627]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:230][628]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:246][629]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:264][630]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:281][631]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:297][632]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:313][633]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:329][634]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:346][635]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:363][636]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:379][637]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:396][638]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:413][639]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:430][640]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:447][641]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:465][642]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:480][643]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:497][644]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:513][645]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:530][646]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:546][647]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:563][648]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:581][649]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:597][650]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:613][651]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:630][652]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:647][653]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:663][654]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:681][655]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:697][656]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:713][657]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:730][658]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:746][659]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:763][660]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:780][661]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:796][662]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:813][663]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:830][664]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:847][665]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:863][666]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:880][667]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:896][668]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:914][669]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:930][670]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:946][671]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:964][672]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:980][673]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.00:997][674]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.01:013][675]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.01:030][676]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.01:047][677]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.04:527][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.24-21.09.04:527][884]LogWorld: BeginTearingDown for /Game/Levels/Stages/UEDPIE_0_Heaven
+[2023.01.24-21.09.04:527][884]LogWorld: UWorld::CleanupWorld for Heaven, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-21.09.04:527][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-21.09.04:530][884]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.24-21.09.04:532][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-21.09.04:538][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.24-21.09.04:538][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.01.24-21.09.04:540][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.01.24-21.09.04:545][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.01.24-21.09.04:613][886]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.01.24-21.09.27:514][247]Cmd: DELETE
+[2023.01.24-21.09.27:514][247]Cmd: ACTOR DELETE
+[2023.01.24-21.09.27:525][247]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.01.24-21.09.27:525][247]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.01.24-21.09.27:525][247]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.01.24-21.09.27:527][247]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.01.24-21.09.27:533][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.01.24-21.09.27:536][247]LogEditorActor: Deleted 4 Actors (0.021 secs)
+[2023.01.24-21.09.31:136][463]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.24-21.09.31:140][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.24-21.09.31:141][463]PIE: New page: PIE session: Heaven (Jan 24, 2023, 9:09:31 AM)
+[2023.01.24-21.09.31:141][463]LogPlayLevel: Creating play world package: /Game/Levels/Stages/UEDPIE_0_Heaven
+[2023.01.24-21.09.31:143][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002311s)
+[2023.01.24-21.09.31:143][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Stages/Heaven.Heaven to /Game/Levels/Stages/UEDPIE_0_Heaven.Heaven (0.002337s)
+[2023.01.24-21.09.31:143][463]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.24-21.09.31:143][463]LogAIModule: Creating AISystem for world Heaven
+[2023.01.24-21.09.31:144][463]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2023.01.24-21.09.31:150][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.01.24-21.09.31:151][463]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.01.24-21.09.31:151][463]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.24-21.09.31:151][463]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.24-21.09.31:151][463]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.24-21.09.31:151][463]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.24-21.09.31:151][463]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.24-21.09.31:151][463]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.24-21.09.31:151][463]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.24-21.09.31:151][463]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.24-21.09.31:151][463]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.24-21.09.31:151][463]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.24-21.09.31:151][463]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.24-21.09.31:153][463]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.24-21.09.31:165][463]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB-C Audio)
+[2023.01.24-21.09.31:165][463]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.24-21.09.31:165][463]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.24-21.09.31:165][463]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.24-21.09.31:166][463]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.01.24-21.09.31:166][463]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.01.24-21.09.31:167][463]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.01.24-21.09.31:167][463]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.01.24-21.09.31:167][463]LogInit: FAudioDevice initialized.
+[2023.01.24-21.09.31:167][463]LogAudio: Display: Audio Device (ID: 6) registered with world 'Heaven'.
+[2023.01.24-21.09.31:170][463]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.24-21.09.31:171][463]LogWorld: Bringing World /Game/Levels/Stages/UEDPIE_0_Heaven.Heaven up for play (max tick rate 60) at 2023.01.24-15.09.31
+[2023.01.24-21.09.31:171][463]LogWorld: Bringing up level for play took: 0.001583
+[2023.01.24-21.09.31:173][463]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.01.24-21.09.31:176][463]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.31:176][463]PIE: Server logged in
+[2023.01.24-21.09.31:176][463]PIE: Play in editor total start time 0.036 seconds.
+[2023.01.24-21.09.31:177][463]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.31:851][501]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.31:868][502]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.31:894][503]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.31:909][504]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.31:926][505]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.31:943][506]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.31:960][507]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.31:976][508]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.31:992][509]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:010][510]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:026][511]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:042][512]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:059][513]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:076][514]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:092][515]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:109][516]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:126][517]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:143][518]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:159][519]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:176][520]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:193][521]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:209][522]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:226][523]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:242][524]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:260][525]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:276][526]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:292][527]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:309][528]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:326][529]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:343][530]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:359][531]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:376][532]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:392][533]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:409][534]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:425][535]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:442][536]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:459][537]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:476][538]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:492][539]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:509][540]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:525][541]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:542][542]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:559][543]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:576][544]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:592][545]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:609][546]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:626][547]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:643][548]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:659][549]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:676][550]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:693][551]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:709][552]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:725][553]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:742][554]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:759][555]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:776][556]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:792][557]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.32:809][558]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:826][799]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:842][800]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:859][801]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:876][802]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:892][803]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:908][804]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:926][805]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:942][806]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:959][807]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:976][808]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.36:992][809]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:009][810]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:025][811]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:042][812]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:060][813]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:076][814]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:093][815]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:109][816]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:126][817]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:142][818]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:159][819]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:176][820]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:192][821]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:209][822]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:226][823]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:242][824]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:259][825]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:276][826]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:292][827]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:309][828]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:326][829]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:342][830]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:359][831]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:376][832]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:392][833]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:409][834]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:426][835]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:442][836]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:459][837]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:476][838]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:492][839]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:509][840]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:526][841]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:542][842]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:559][843]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:576][844]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:592][845]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:609][846]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:626][847]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:643][848]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:659][849]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:675][850]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:692][851]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:709][852]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:726][853]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:742][854]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:759][855]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:776][856]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:792][857]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.37:809][858]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:825][ 99]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:842][100]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:859][101]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:876][102]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:892][103]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:909][104]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:926][105]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:942][106]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:959][107]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:976][108]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.41:992][109]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:009][110]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:026][111]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:043][112]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:059][113]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:076][114]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:092][115]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:109][116]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:126][117]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:143][118]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:159][119]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:176][120]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:192][121]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:209][122]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:226][123]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:242][124]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:259][125]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:276][126]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:292][127]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:309][128]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:326][129]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:343][130]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:359][131]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:376][132]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:393][133]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:410][134]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:426][135]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:442][136]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:459][137]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:476][138]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:492][139]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:510][140]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:526][141]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:543][142]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:559][143]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:576][144]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:593][145]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:609][146]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:626][147]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:643][148]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:658][149]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:676][150]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:692][151]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:709][152]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:726][153]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:742][154]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:759][155]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:776][156]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:792][157]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.42:809][158]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.46:826][399]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.46:843][400]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.46:859][401]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.46:876][402]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.46:892][403]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.46:910][404]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.46:926][405]LogMediaAssets: Error: Failed to validate media source FogElement (img://C:/Users/the_f/OneDrive/Desktop/Images)
+[2023.01.24-21.09.46:956][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.24-21.09.46:956][405]LogWorld: BeginTearingDown for /Game/Levels/Stages/UEDPIE_0_Heaven
+[2023.01.24-21.09.46:956][405]LogWorld: UWorld::CleanupWorld for Heaven, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-21.09.46:956][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-21.09.46:960][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.24-21.09.46:961][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-21.09.46:967][405]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.24-21.09.46:967][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.01.24-21.09.46:969][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.01.24-21.09.46:972][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.24-21.09.46:973][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.01.24-21.09.47:046][408]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.01.24-21.13.05:863][482]LogSlate: Window 'FBX Export Options' being destroyed
+[2023.01.24-21.13.05:873][482]LogFbx: FBX version number for this version of the FBX SDK is 7.7.0
+
+
+[2023.01.24-21.16.48:075][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.01.24-21.16.48:087][907]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Stages/Heaven_Auto6
+[2023.01.24-21.16.48:087][907]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/Heaven_Auto6363F7D9D4883174C6DF3BEB4C3B0E144.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/Autosaves/Game/Levels/Stages/Heaven_Auto6.umap'
+[2023.01.24-21.16.48:097][907]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Stages/Heaven' took 0.034
+[2023.01.24-21.16.48:097][907]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2023.01.24-21.20.38:241][598]LogDerivedDataCache: C:/Users/T352T828/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:15.018 and deleted 0 files with total size 0 MiB. Scanned 7675 files in 7582 folders with total size 1248 MiB.
+[2023.01.24-22.04.36:000][120]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/T352T828/OneDrive - Wichita State University/Desktop/HeavenLevel/assets/SM_BasePatheon.fbx)
+[2023.01.24-22.04.36:004][120]LogFbx: Loading FBX Scene from ../../../../../../Users/T352T828/OneDrive - Wichita State University/Desktop/HeavenLevel/assets/SM_BasePatheon.fbx
+[2023.01.24-22.04.36:008][120]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.24-22.04.39:673][120]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.01.24-22.04.39:791][120]LogFbx: Display: Triangulating static mesh SM_BasePatheon
+[2023.01.24-22.04.39:801][120]LogStaticMesh: Display: Building static mesh SM_BasePatheon...
+[2023.01.24-22.04.39:805][120]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/Heaven/Mesh/SM_BasePatheon.SM_BasePatheon
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: ================================================
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Total job queries 547, among them cache hits 211 (38.57%)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Tracking 336 distinct input hashes that result in 191 distinct outputs (56.85%)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: RAM used: 2.35 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.14%
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Shaders Compiled: 336
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Jobs assigned 336, completed 336 (100.00%)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Average time worker was idle: 466.08 s
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Time job spent in pending queue: average 1.21 s, longest 7.24 s
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Job execution time: average 1.21 s, max 4.84 s
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Job life time (pending + execution): average 2.41 s, max 8.16
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 47.60 s
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Jobs were issued in 301 batches (only local compilation was used), average 1.12 jobs/batch
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Average processing rate: 7.06 jobs/sec
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Total thread time: 179.44 s
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Total thread preprocess time: 12.47 s
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Percentage time preprocessing: 6.95%
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Effective parallelization: 3.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.20 sec, max 1.20 sec, min 1.20 sec)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.09 sec, max 1.09 sec, min 1.09 sec)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 0.99 sec, max 0.99 sec, min 0.99 sec)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 0.97 sec, max 1.30 sec, min 0.73 sec)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.84% of total time (compiled   65 times, average 0.63 sec, max 1.44 sec, min 0.35 sec)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.37% of total time (compiled   65 times, average 0.56 sec, max 0.83 sec, min 0.33 sec)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.01% of total time (compiled   48 times, average 0.49 sec, max 0.67 sec, min 0.30 sec)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.31% of total time (compiled   48 times, average 0.35 sec, max 1.02 sec, min 0.20 sec)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 9.15% of total time (compiled   17 times, average 0.97 sec, max 1.30 sec, min 0.73 sec)
+[2023.01.24-22.04.40:096][124]LogShaderCompilers: Display: ================================================
+[2023.01.24-22.04.42:539][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.01.24-22.04.44:216][259]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.24-22.04.44:233][259]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Levels/Heaven/Mesh/lambert1.lambert1
+	Asset Type: Material
+[2023.01.24-22.04.44:370][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.01.24-22.04.44:377][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.01.24-22.04.44:383][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.01.24-22.04.44:506][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.01.24-22.04.44:507][260]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Stages/Heaven' took 0.007
+[2023.01.24-22.04.44:508][260]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/Heaven/Mesh/SM_BasePatheon] ([1] browsable assets)...
+[2023.01.24-22.04.44:515][260]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/Heaven/Mesh/SM_BasePatheon.SM_BasePatheon]
+[2023.01.24-22.04.44:515][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/Heaven/Mesh/SM_BasePatheon]
+[2023.01.24-22.04.44:518][260]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Heaven/Mesh/SM_BasePatheon_Auto7
+[2023.01.24-22.04.44:518][260]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/SM_BasePatheon_Auto73414074448DE0DA2234DA195EABB7416.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/Autosaves/Game/Levels/Heaven/Mesh/SM_BasePatheon_Auto7.uasset'
+[2023.01.24-22.04.44:519][260]LogFileHelpers: Auto-saving content packages took 0.012
+[2023.01.24-22.04.48:474][423]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/T352T828/OneDrive - Wichita State University/Desktop/HeavenLevel/assets/SM_Stairs.fbx)
+[2023.01.24-22.04.48:478][423]LogFbx: Loading FBX Scene from ../../../../../../Users/T352T828/OneDrive - Wichita State University/Desktop/HeavenLevel/assets/SM_Stairs.fbx
+[2023.01.24-22.04.48:482][423]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.24-22.04.50:142][423]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.01.24-22.04.50:243][423]LogFbx: Display: Triangulating static mesh SM_Stairs
+[2023.01.24-22.04.50:250][423]LogStaticMesh: Display: Building static mesh SM_Stairs...
+[2023.01.24-22.04.50:254][423]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/Heaven/Mesh/SM_Stairs.SM_Stairs
+[2023.01.24-22.04.52:010][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.01.24-22.04.53:053][510]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.24-22.04.53:068][510]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Levels/Heaven/Mesh/lambert1.lambert1
+	Asset Type: Material
+[2023.01.24-22.04.53:154][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.01.24-22.04.53:161][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.01.24-22.04.53:168][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.01.24-22.04.55:969][673]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.01.24-22.05.05:837][255]Cmd: DELETE
+[2023.01.24-22.05.05:837][255]Cmd: ACTOR DELETE
+[2023.01.24-22.05.05:852][255]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.01.24-22.05.05:859][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.01.24-22.05.05:862][255]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2023.01.24-22.05.07:625][351]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/Heaven/Mesh/SM_BasePatheon.SM_BasePatheon
+[2023.01.24-22.05.07:625][351]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/Heaven/Mesh/SM_BasePatheon.SM_BasePatheon
+[2023.01.24-22.05.07:625][351]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/Heaven/Mesh/SM_BasePatheon.SM_BasePatheon as actor: StaticMeshActor /Game/Levels/Stages/Heaven.Heaven:PersistentLevel.StaticMeshActor_49
+[2023.01.24-22.05.08:943][429]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/Heaven/Mesh/SM_BasePatheon.SM_BasePatheon
+[2023.01.24-22.05.08:943][429]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/Heaven/Mesh/SM_BasePatheon.SM_BasePatheon
+[2023.01.24-22.05.08:944][429]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/Heaven/Mesh/SM_BasePatheon.SM_BasePatheon as actor: StaticMeshActor /Game/Levels/Stages/Heaven.Heaven:PersistentLevel.StaticMeshActor_50
+[2023.01.24-22.05.09:467][458]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.01.24-22.05.28:557][588]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.01.24-22.05.30:994][729]Cmd: TRANSACTION UNDO
+[2023.01.24-22.05.30:994][729]LogEditorTransaction: Undo Move Elements
+[2023.01.24-22.06.00:989][466]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/Heaven/Mesh/SM_Stairs.SM_Stairs
+[2023.01.24-22.06.00:989][466]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/Heaven/Mesh/SM_Stairs.SM_Stairs
+[2023.01.24-22.06.00:989][466]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/Heaven/Mesh/SM_Stairs.SM_Stairs as actor: StaticMeshActor /Game/Levels/Stages/Heaven.Heaven:PersistentLevel.StaticMeshActor_51
+[2023.01.24-22.06.01:840][515]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/Heaven/Mesh/SM_Stairs.SM_Stairs
+[2023.01.24-22.06.01:840][515]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/Heaven/Mesh/SM_Stairs.SM_Stairs
+[2023.01.24-22.06.01:841][515]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/Heaven/Mesh/SM_Stairs.SM_Stairs as actor: StaticMeshActor /Game/Levels/Stages/Heaven.Heaven:PersistentLevel.StaticMeshActor_52
+[2023.01.24-22.06.22:397][723]LogEditorViewport: Clicking Background
+[2023.01.24-22.14.44:988][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.01.24-22.14.45:005][792]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Stages/Heaven_Auto8
+[2023.01.24-22.14.45:005][792]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/Heaven_Auto8132FC2E944B07E14CF1074ACBC4CFDCB.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/Autosaves/Game/Levels/Stages/Heaven_Auto8.umap'
+[2023.01.24-22.14.45:018][792]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Stages/Heaven' took 0.038
+[2023.01.24-22.14.45:018][792]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.038
+[2023.01.24-22.14.45:018][792]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/Heaven/Mesh/SM_Stairs] ([1] browsable assets)...
+[2023.01.24-22.14.45:061][792]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/Heaven/Mesh/SM_Stairs.SM_Stairs]
+[2023.01.24-22.14.45:061][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/Heaven/Mesh/SM_Stairs]
+[2023.01.24-22.14.45:065][792]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Heaven/Mesh/SM_Stairs_Auto8
+[2023.01.24-22.14.45:065][792]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/SM_Stairs_Auto85915DE294F6266039E6FC8ACB41E4509.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/Autosaves/Game/Levels/Heaven/Mesh/SM_Stairs_Auto8.uasset'
+[2023.01.24-22.14.45:065][792]LogFileHelpers: Auto-saving content packages took 0.048
+[2023.01.24-22.20.37:363][850]LogDerivedDataCache: C:/Users/T352T828/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:14.114 and deleted 0 files with total size 0 MiB. Scanned 7691 files in 7598 folders with total size 1248 MiB.
+[2023.01.24-22.24.56:812][411]LogInterchangeEngine: [Pending] Importing
+[2023.01.24-22.24.56:812][411]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.01.24-22.24.56:812][411]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.01.24-22.24.56:874][412]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.01.24-22.24.56:881][412]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.01.24-22.24.56:881][412]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.01.24-22.24.56:881][412]LogInterchangeEngine: [Success] Import Done
+[2023.01.24-22.24.56:881][412]LogTexture: Display: Building textures: /Game/Levels/Heaven/Textures/SM_BasePatheon_lambert1_OcclusionRoughnessMetallic.SM_BasePatheon_lambert1_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.01.24-22.24.56:883][412]LogTexture: Display: Building textures: /Game/Levels/Heaven/Textures/SM_BasePatheon_lambert1_BaseColor.SM_BasePatheon_lambert1_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.01.24-22.24.56:888][412]LogTexture: Display: Building textures: /Game/Levels/Heaven/Textures/SM_BasePatheon_lambert1_Normal.SM_BasePatheon_lambert1_Normal (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.01.24-22.24.56:990][413]LogInterchangeEngine: [Success] Import Done
+[2023.01.24-22.24.57:159][414]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.01.24-22.24.57:162][414]LogTexture: Display: Building textures: /Game/Levels/Heaven/Textures/SM_BasePatheon_lambert1_Normal.SM_BasePatheon_lambert1_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2023.01.24-22.25.16:055][507]LogContentBrowser: Attempting asset rename: SM_BasePatheon_lambert1_BaseColor -> T_BasePatheon_D
+[2023.01.24-22.25.16:080][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-22.25.16:260][507]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Textures/T_BasePatheon_D
+[2023.01.24-22.25.16:260][507]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/T_BasePatheon_DF34E10384E2ACE73E3B501A10B3DED97.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Textures/T_BasePatheon_D.uasset'
+[2023.01.24-22.25.16:270][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 4.69 sec)
+[2023.01.24-22.25.16:281][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.01.24-22.25.16:288][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.01.24-22.25.16:295][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.01.24-22.25.16:297][507]AssetCheck: New page: Asset Save: T_BasePatheon_D
+[2023.01.24-22.25.16:297][507]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Heaven/Textures/T_BasePatheon_D.T_BasePatheon_D
+[2023.01.24-22.25.23:049][891]LogContentBrowser: Attempting asset rename: T_BasePatheon_D -> T_BasePatheon_D
+[2023.01.24-22.25.32:452][426]LogContentBrowser: Attempting asset rename: SM_BasePatheon_lambert1_Normal -> T_BasePatheon_N
+[2023.01.24-22.25.32:467][426]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-22.25.32:652][426]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Textures/T_BasePatheon_N
+[2023.01.24-22.25.32:652][426]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/T_BasePatheon_N6A5F2D424097A880B4660C8EBE61FA72.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Textures/T_BasePatheon_N.uasset'
+[2023.01.24-22.25.32:659][426]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 4.89 sec)
+[2023.01.24-22.25.32:670][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.01.24-22.25.32:678][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.01.24-22.25.32:683][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.01.24-22.25.32:686][426]AssetCheck: New page: Asset Save: T_BasePatheon_N
+[2023.01.24-22.25.32:686][426]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Heaven/Textures/T_BasePatheon_N.T_BasePatheon_N
+[2023.01.24-22.25.41:026][911]LogContentBrowser: Attempting asset rename: SM_BasePatheon_lambert1_OcclusionRoughnessMetallic -> T_BasePatheon_AORM
+[2023.01.24-22.25.41:041][911]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-22.25.41:171][911]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Textures/T_BasePatheon_AORM
+[2023.01.24-22.25.41:171][911]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/T_BasePatheon_AORMC092F7E143B5B08DFB62AFB7449AA146.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Textures/T_BasePatheon_AORM.uasset'
+[2023.01.24-22.25.41:180][911]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 5.02 sec)
+[2023.01.24-22.25.41:190][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.01.24-22.25.41:198][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.01.24-22.25.41:204][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.01.24-22.25.41:207][911]AssetCheck: New page: Asset Save: T_BasePatheon_AORM
+[2023.01.24-22.25.41:207][911]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Heaven/Textures/T_BasePatheon_AORM.T_BasePatheon_AORM
+[2023.01.24-22.25.54:558][693]LogContentBrowser: Attempting asset rename: SM_Column_lambert1_BaseColor -> T_Column_D
+[2023.01.24-22.25.54:575][693]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-22.25.54:671][693]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Materials/MasterMaterialStandard
+[2023.01.24-22.25.54:671][693]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/MasterMaterialStandardA65AB75F44D8052D411AA79C89410ABD.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Materials/MasterMaterialStandard.uasset'
+[2023.01.24-22.25.54:674][693]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Materials/M_Column
+[2023.01.24-22.25.54:674][693]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/M_ColumnCE23AB08414A1541B7CD89A3F3D48D46.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Materials/M_Column.uasset'
+[2023.01.24-22.25.54:722][693]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Textures/T_Column_D
+[2023.01.24-22.25.54:722][693]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/T_Column_D317384B4479C97C51C9EF380C2C6029D.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Textures/T_Column_D.uasset'
+[2023.01.24-22.25.54:729][693]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 5.18 sec)
+[2023.01.24-22.25.54:742][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.01.24-22.25.54:749][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.01.24-22.25.54:756][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.01.24-22.25.54:760][693]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.24-22.25.54:760][693]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Heaven/Textures/T_Column_D.T_Column_D
+[2023.01.24-22.25.54:760][693]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Levels/Heaven/Materials/MasterMaterialStandard.MasterMaterialStandard
+[2023.01.24-22.25.54:760][693]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Levels/Heaven/Materials/M_Column.M_Column
+[2023.01.24-22.26.01:786][ 99]LogContentBrowser: Attempting asset rename: SM_Column_lambert1_Normal -> T_Column_N
+[2023.01.24-22.26.01:801][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-22.26.01:893][ 99]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Materials/MasterMaterialStandard
+[2023.01.24-22.26.01:894][ 99]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/MasterMaterialStandard9699270B4C4BC7A52BE23E935010E095.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Materials/MasterMaterialStandard.uasset'
+[2023.01.24-22.26.01:895][ 99]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Materials/M_Column
+[2023.01.24-22.26.01:896][ 99]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/M_Column5E9AC60D40A4906CA84EDAAF35E8E2EE.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Materials/M_Column.uasset'
+[2023.01.24-22.26.01:927][ 99]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Textures/T_Column_N
+[2023.01.24-22.26.01:927][ 99]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/T_Column_N4D08803143D6E8AA636E20BCC9494AFA.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Textures/T_Column_N.uasset'
+[2023.01.24-22.26.01:935][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 5.31 sec)
+[2023.01.24-22.26.01:947][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.01.24-22.26.01:955][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.01.24-22.26.01:961][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.01.24-22.26.01:964][ 99]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.24-22.26.01:964][ 99]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Heaven/Textures/T_Column_N.T_Column_N
+[2023.01.24-22.26.01:964][ 99]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Levels/Heaven/Materials/MasterMaterialStandard.MasterMaterialStandard
+[2023.01.24-22.26.01:964][ 99]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Levels/Heaven/Materials/M_Column.M_Column
+[2023.01.24-22.26.09:054][509]LogContentBrowser: Attempting asset rename: SM_Column_lambert1_OcclusionRoughnessMetallic -> T_Column_AORM
+[2023.01.24-22.26.09:069][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-22.26.09:161][509]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Materials/MasterMaterialStandard
+[2023.01.24-22.26.09:161][509]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/MasterMaterialStandard55939F4B43CB3C47B5CECE93BC07F30C.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Materials/MasterMaterialStandard.uasset'
+[2023.01.24-22.26.09:164][509]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Materials/M_Column
+[2023.01.24-22.26.09:164][509]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/M_ColumnDDF133554ED252C2300F5293FFAF63CD.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Materials/M_Column.uasset'
+[2023.01.24-22.26.09:196][509]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Textures/T_Column_AORM
+[2023.01.24-22.26.09:196][509]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/T_Column_AORM8B9BF343405EF700858BF4863B706D58.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Textures/T_Column_AORM.uasset'
+[2023.01.24-22.26.09:203][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 5.45 sec)
+[2023.01.24-22.26.09:216][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.01.24-22.26.09:223][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.01.24-22.26.09:230][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.01.24-22.26.09:233][509]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.24-22.26.09:233][509]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Heaven/Textures/T_Column_AORM.T_Column_AORM
+[2023.01.24-22.26.09:233][509]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Levels/Heaven/Materials/MasterMaterialStandard.MasterMaterialStandard
+[2023.01.24-22.26.09:233][509]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Levels/Heaven/Materials/M_Column.M_Column
+[2023.01.24-22.26.14:130][791]LogContentBrowser: Deferred new asset file creation: MasterMaterialStandard_Inst
+[2023.01.24-22.26.14:151][791]LogContentBrowser: Creating deferred item: MasterMaterialStandard_Inst
+[2023.01.24-22.26.14:161][792]LogContentBrowser: Renaming the item being created (Deferred Item: MasterMaterialStandard_Inst).
+[2023.01.24-22.26.18:938][ 79]LogContentBrowser: Attempting asset rename: MasterMaterialStandard_Inst -> M_BasePatheon
+[2023.01.24-22.26.18:938][ 79]LogContentBrowser: End creating deferred item MasterMaterialStandard_Inst
+[2023.01.24-22.26.22:113][265]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Levels/Heaven/Materials/M_BasePatheon.M_BasePatheon
+[2023.01.24-22.26.22:115][265]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.24-22.26.22:304][265]LogViewport: Scene viewport resized to 2399x1254, mode Windowed.
+[2023.01.24-22.26.27:622][571]LogViewport: Scene viewport resized to 2396x1277, mode Windowed.
+[2023.01.24-22.26.27:741][573]LogViewport: Scene viewport resized to 548x209, mode Windowed.
+[2023.01.24-22.26.28:733][631]LogViewport: Scene viewport resized to 2399x1254, mode Windowed.
+[2023.01.24-22.26.29:064][650]LogSlate: Window 'M_BasePatheon' being destroyed
+[2023.01.24-22.26.32:053][821]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Levels/Heaven/Materials/MasterMaterialStandard.MasterMaterialStandard
+[2023.01.24-22.26.32:056][821]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.24-22.26.32:119][821]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.24-22.26.32:119][821]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.32:119][821]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.32:119][821]MaterialEditorStats: Shader Count: 0
+[2023.01.24-22.26.32:122][821]LogViewport: Scene viewport resized to 680x625, mode Windowed.
+[2023.01.24-22.26.32:161][822]LogShaderCompilers: Display: ================================================
+[2023.01.24-22.26.32:161][822]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.24-22.26.32:161][822]LogShaderCompilers: Display: Total job queries 568, among them cache hits 224 (39.44%)
+[2023.01.24-22.26.32:161][822]LogShaderCompilers: Display: Tracking 344 distinct input hashes that result in 197 distinct outputs (57.27%)
+[2023.01.24-22.26.32:161][822]LogShaderCompilers: Display: RAM used: 2.40 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.15%
+[2023.01.24-22.26.32:161][822]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Shaders Compiled: 344
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Jobs assigned 344, completed 344 (100.00%)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Average time worker was idle: 551.48 s
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Time job spent in pending queue: average 1.18 s, longest 7.24 s
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Job execution time: average 1.22 s, max 4.84 s
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Job life time (pending + execution): average 2.40 s, max 8.16
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 49.78 s
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Jobs were issued in 309 batches (only local compilation was used), average 1.11 jobs/batch
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Average processing rate: 6.91 jobs/sec
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Total thread time: 181.91 s
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Total thread preprocess time: 12.85 s
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Percentage time preprocessing: 7.07%
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Effective parallelization: 3.65 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.20 sec, max 1.20 sec, min 1.20 sec)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.09 sec, max 1.09 sec, min 1.09 sec)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 0.99 sec, max 0.99 sec, min 0.99 sec)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 0.97 sec, max 1.30 sec, min 0.73 sec)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.85% of total time (compiled   66 times, average 0.63 sec, max 1.44 sec, min 0.35 sec)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.39% of total time (compiled   66 times, average 0.56 sec, max 0.83 sec, min 0.33 sec)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.83% of total time (compiled   48 times, average 0.49 sec, max 0.67 sec, min 0.30 sec)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.18% of total time (compiled   48 times, average 0.35 sec, max 1.02 sec, min 0.20 sec)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 9.03% of total time (compiled   17 times, average 0.97 sec, max 1.30 sec, min 0.73 sec)
+[2023.01.24-22.26.32:162][822]LogShaderCompilers: Display: ================================================
+[2023.01.24-22.26.32:183][823]MaterialEditorStats: Base pass shader: 235 instructions
+[2023.01.24-22.26.32:183][823]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.01.24-22.26.32:183][823]MaterialEditorStats: Texture samplers: 5/16
+[2023.01.24-22.26.32:183][823]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.32:183][823]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.32:183][823]MaterialEditorStats: Shader Count: 4
+[2023.01.24-22.26.35:928][ 40]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.24-22.26.35:928][ 40]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.35:928][ 40]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.35:928][ 40]MaterialEditorStats: Shader Count: 0
+[2023.01.24-22.26.36:347][ 63]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.24-22.26.36:347][ 63]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.36:348][ 63]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.36:348][ 63]MaterialEditorStats: Shader Count: 1
+[2023.01.24-22.26.36:563][ 76]MaterialEditorStats: Base pass shader: 235 instructions
+[2023.01.24-22.26.36:563][ 76]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.01.24-22.26.36:563][ 76]MaterialEditorStats: Texture samplers: 5/16
+[2023.01.24-22.26.36:563][ 76]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.36:563][ 76]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.36:563][ 76]MaterialEditorStats: Shader Count: 4
+[2023.01.24-22.26.42:010][399]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.24-22.26.42:010][399]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.42:010][399]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.42:010][399]MaterialEditorStats: Shader Count: 0
+[2023.01.24-22.26.42:442][424]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.24-22.26.42:442][424]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.42:442][424]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.42:442][424]MaterialEditorStats: Shader Count: 1
+[2023.01.24-22.26.42:642][436]MaterialEditorStats: Base pass shader: 235 instructions
+[2023.01.24-22.26.42:642][436]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.01.24-22.26.42:642][436]MaterialEditorStats: Texture samplers: 5/16
+[2023.01.24-22.26.42:642][436]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.42:642][436]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.42:642][436]MaterialEditorStats: Shader Count: 4
+[2023.01.24-22.26.48:425][779]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.24-22.26.48:425][779]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.48:425][779]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.48:425][779]MaterialEditorStats: Shader Count: 0
+[2023.01.24-22.26.48:488][781]MaterialEditorStats: Base pass shader: 235 instructions
+[2023.01.24-22.26.48:488][781]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.01.24-22.26.48:488][781]MaterialEditorStats: Texture samplers: 5/16
+[2023.01.24-22.26.48:488][781]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.48:488][781]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.48:488][781]MaterialEditorStats: Shader Count: 4
+[2023.01.24-22.26.53:188][ 63]LogMaterialEditor: Saving and Compiling material MasterMaterialStandard
+[2023.01.24-22.26.55:728][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.01.24-22.26.55:932][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.01.24-22.26.55:939][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-22.26.56:093][ 63]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Materials/MasterMaterialStandard
+[2023.01.24-22.26.56:094][ 63]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/MasterMaterialStandardD2B75D4E42A92CC3D4AF93AF04D8A2F7.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Materials/MasterMaterialStandard.uasset'
+[2023.01.24-22.26.56:100][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 5.61 sec)
+[2023.01.24-22.26.56:106][ 63]AssetCheck: New page: Asset Save: MasterMaterialStandard
+[2023.01.24-22.26.56:106][ 63]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Levels/Heaven/Materials/MasterMaterialStandard.MasterMaterialStandard
+[2023.01.24-22.26.56:107][ 63]MaterialEditorStats: Base pass shader: 235 instructions
+[2023.01.24-22.26.56:107][ 63]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.01.24-22.26.56:107][ 63]MaterialEditorStats: MaxSampler: 299 instructions
+[2023.01.24-22.26.56:107][ 63]MaterialEditorStats: Texture samplers: 6/16
+[2023.01.24-22.26.56:107][ 63]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.24-22.26.56:107][ 63]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.24-22.26.56:107][ 63]MaterialEditorStats: Shader Count: 16
+[2023.01.24-22.27.36:933][889]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-22.27.37:035][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.01.24-22.27.37:045][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.01.24-22.27.37:047][889]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Materials/M_BasePatheon
+[2023.01.24-22.27.37:047][889]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/M_BasePatheonC9AF3AAB412968B71878E6BC105CF439.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Materials/M_BasePatheon.uasset'
+[2023.01.24-22.27.37:055][889]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 5.73 sec)
+[2023.01.24-22.27.37:056][889]AssetCheck: New page: Asset Save: M_BasePatheon
+[2023.01.24-22.27.37:056][889]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Levels/Heaven/Materials/M_BasePatheon.M_BasePatheon
+[2023.01.24-22.28.17:452][263]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-22.28.17:581][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.01.24-22.28.17:592][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.01.24-22.28.17:595][263]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Materials/M_BasePatheon
+[2023.01.24-22.28.17:595][263]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/M_BasePatheon53541E8A4A1BAE4619397ABCF27F0F59.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Materials/M_BasePatheon.uasset'
+[2023.01.24-22.28.17:603][263]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 5.88 sec)
+[2023.01.24-22.28.17:605][263]AssetCheck: New page: Asset Save: M_BasePatheon
+[2023.01.24-22.28.17:605][263]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Levels/Heaven/Materials/M_BasePatheon.M_BasePatheon
+[2023.01.24-22.28.25:750][744]Cmd: TRANSACTION UNDO
+[2023.01.24-22.28.25:750][744]LogEditorTransaction: Undo Edit Condition Changed
+[2023.01.24-22.28.50:120][168]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.28.50:120][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-22.28.50:655][199]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.28.50:655][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-22.29.19:625][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.01.24-22.29.19:637][908]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Stages/Heaven_Auto9
+[2023.01.24-22.29.19:637][908]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/Heaven_Auto9E17CE5BC4B2A5AB25DAEE0B68A3BABA4.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/Autosaves/Game/Levels/Stages/Heaven_Auto9.umap'
+[2023.01.24-22.29.19:642][908]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Stages/Heaven' took 0.025
+[2023.01.24-22.29.19:642][908]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.025
+[2023.01.24-22.29.19:642][908]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/Heaven/Materials/M_BasePatheon] ([1] browsable assets)...
+[2023.01.24-22.29.19:642][908]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/Heaven/Materials/M_BasePatheon]
+[2023.01.24-22.29.19:644][908]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Heaven/Materials/M_BasePatheon_Auto9
+[2023.01.24-22.29.19:644][908]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/M_BasePatheon_Auto91742DBCC493C9E181D09BEB34D8039F8.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/Autosaves/Game/Levels/Heaven/Materials/M_BasePatheon_Auto9.uasset'
+[2023.01.24-22.29.19:644][908]LogFileHelpers: Auto-saving content packages took 0.002
+[2023.01.24-22.29.49:891][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.01.24-22.29.49:893][713]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.24-22.29.49:987][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.01.24-22.29.49:995][713]LogSavePackage: Moving output files for package: /Game/Levels/Stages/Heaven
+[2023.01.24-22.29.49:996][713]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/Heaven8ABA5A5846F32997D8D3C9A8F5CB7E8B.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Stages/Heaven.umap'
+[2023.01.24-22.29.50:003][713]LogFileHelpers: Saving map 'Heaven' took 0.023
+[2023.01.24-22.29.50:006][713]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Mesh/SM_BasePatheon
+[2023.01.24-22.29.50:006][713]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/SM_BasePatheonDD5B43644778585A0A0E1A822CF0E4AC.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Mesh/SM_BasePatheon.uasset'
+[2023.01.24-22.29.50:009][713]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Mesh/SM_Stairs
+[2023.01.24-22.29.50:009][713]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/SM_Stairs1984AF754A4895E61EC497859DF260D5.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Mesh/SM_Stairs.uasset'
+[2023.01.24-22.29.50:011][713]LogSavePackage: Moving output files for package: /Game/Levels/Heaven/Materials/M_BasePatheon
+[2023.01.24-22.29.50:011][713]LogSavePackage: Moving '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/M_BasePatheon8A1F71BD440E7A62B57EA5A42801E662.tmp' to '../../../../../../Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Content/Levels/Heaven/Materials/M_BasePatheon.uasset'
+[2023.01.24-22.29.50:033][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 6.02 sec)
+[2023.01.24-22.29.50:037][713]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.24-22.29.50:037][713]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Levels/Heaven/Materials/M_BasePatheon.M_BasePatheon
+[2023.01.24-22.29.50:037][713]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Stages/Heaven.Heaven
+[2023.01.24-22.29.50:037][713]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/Heaven/Mesh/SM_BasePatheon.SM_BasePatheon
+[2023.01.24-22.29.50:037][713]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/Heaven/Mesh/SM_Stairs.SM_Stairs
+[2023.01.24-22.31.14:004][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.01.24-22.31.15:294][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.01.24-22.31.15:295][423]LogStall: Shutdown...
+[2023.01.24-22.31.15:301][423]LogStall: Shutdown complete.
+[2023.01.24-22.31.15:322][423]LogSlate: Window 'InfernalDuel_UProj - Unreal Editor' being destroyed
+[2023.01.24-22.31.15:415][424]Cmd: QUIT_EDITOR
+[2023.01.24-22.31.15:415][424]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.01.24-22.31.15:417][424]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.01.24-22.31.15:417][424]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.01.24-22.31.15:418][424]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.01.24-22.31.15:419][424]LogWorld: UWorld::CleanupWorld for Heaven, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.15:419][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-22.31.15:420][424]LogWorld: UWorld::CleanupWorld for Heaven_Auto4, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.15:420][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-22.31.15:420][424]LogWorld: UWorld::CleanupWorld for Heaven_Auto1, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.15:420][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-22.31.15:420][424]LogWorld: UWorld::CleanupWorld for Heaven_Auto2, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.15:420][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-22.31.15:420][424]LogWorld: UWorld::CleanupWorld for Heaven_Auto5, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.15:420][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-22.31.15:420][424]LogWorld: UWorld::CleanupWorld for Heaven_Auto6, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.15:420][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.24-22.31.15:421][424]LogStylusInput: Shutting down StylusInput subsystem.
+[2023.01.24-22.31.15:422][424]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.01.24-22.31.15:589][424]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.01.24-22.31.15:589][424]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.01.24-22.31.15:589][424]LogAudio: Display: Audio Device unregistered from world 'Heaven'.
+[2023.01.24-22.31.15:590][424]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.01.24-22.31.15:592][424]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.01.24-22.31.15:625][424]LogAudio: Display: Audio Device Manager Shutdown
+[2023.01.24-22.31.15:628][424]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.01.24-22.31.15:628][424]LogExit: Preparing to exit.
+[2023.01.24-22.31.15:647][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.01.24-22.31.16:005][424]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.16:005][424]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.16:005][424]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.16:005][424]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.16:005][424]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.16:005][424]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.16:005][424]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.01.24-22.31.16:040][424]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.01.24-22.31.16:064][424]LogExit: Editor shut down
+[2023.01.24-22.31.16:067][424]LogExit: Transaction tracking system shut down
+[2023.01.24-22.31.16:191][424]LogExit: Object subsystem successfully closed.
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: ================================================
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Total job queries 644, among them cache hits 260 (40.37%)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Tracking 384 distinct input hashes that result in 209 distinct outputs (54.43%)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: RAM used: 2.62 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.16%
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Shaders Compiled: 384
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Jobs assigned 384, completed 384 (100.00%)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Average time worker was idle: 545.92 s
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Time job spent in pending queue: average 1.07 s, longest 7.24 s
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Job execution time: average 1.17 s, max 4.84 s
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Job life time (pending + execution): average 2.24 s, max 8.16
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 55.70 s
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Jobs were issued in 349 batches (only local compilation was used), average 1.10 jobs/batch
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Average processing rate: 6.89 jobs/sec
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Total thread time: 199.44 s
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Total thread preprocess time: 14.61 s
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Percentage time preprocessing: 7.32%
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Effective parallelization: 3.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.20 sec, max 1.20 sec, min 1.20 sec)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.09 sec, max 1.09 sec, min 1.09 sec)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 0.99 sec, max 0.99 sec, min 0.99 sec)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 0.97 sec, max 1.30 sec, min 0.73 sec)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.21% of total time (compiled   80 times, average 0.60 sec, max 1.44 sec, min 0.33 sec)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.88% of total time (compiled   80 times, average 0.55 sec, max 0.83 sec, min 0.33 sec)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.00% of total time (compiled   54 times, average 0.48 sec, max 0.67 sec, min 0.30 sec)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.21% of total time (compiled   54 times, average 0.34 sec, max 1.02 sec, min 0.20 sec)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 8.23% of total time (compiled   17 times, average 0.97 sec, max 1.30 sec, min 0.73 sec)
+[2023.01.24-22.31.16:197][424]LogShaderCompilers: Display: ================================================
+[2023.01.24-22.31.16:204][424]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.01.24-22.31.16:223][424]LogVirtualization: UE::Virtualization was shutdown
+[2023.01.24-22.31.16:264][424]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (1003)
+[2023.01.24-22.31.16:264][424]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1001)
+[2023.01.24-22.31.16:264][424]LogModuleManager: Shutting down and abandoning module Voice (999)
+[2023.01.24-22.31.16:264][424]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (997)
+[2023.01.24-22.31.16:264][424]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (995)
+[2023.01.24-22.31.16:264][424]LogModuleManager: Shutting down and abandoning module AddContentDialog (993)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module WidgetCarousel (992)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module SubobjectEditor (989)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module SceneOutliner (987)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module StatusBar (985)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (983)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module StatsViewer (981)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (979)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module AutomationWorker (977)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (975)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (973)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (971)
+[2023.01.24-22.31.16:266][424]LogModuleManager: Shutting down and abandoning module PlanarCut (969)
+[2023.01.24-22.31.16:267][424]LogModuleManager: Shutting down and abandoning module CharacterAI (967)
+[2023.01.24-22.31.16:267][424]LogModuleManager: Shutting down and abandoning module TextureAlignMode (965)
+[2023.01.24-22.31.16:267][424]LogModuleManager: Shutting down and abandoning module BspMode (963)
+[2023.01.24-22.31.16:267][424]LogModuleManager: Shutting down and abandoning module GeometryMode (961)
+[2023.01.24-22.31.16:267][424]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (959)
+[2023.01.24-22.31.16:267][424]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (957)
+[2023.01.24-22.31.16:267][424]LogModuleManager: Shutting down and abandoning module TakesCore (955)
+[2023.01.24-22.31.16:267][424]LogModuleManager: Shutting down and abandoning module ControlRigEditor (953)
+[2023.01.24-22.31.16:268][424]LogModuleManager: Shutting down and abandoning module IKRigEditor (951)
+[2023.01.24-22.31.16:268][424]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (949)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module WaveTableEditor (947)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (945)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module GooglePADEditor (943)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (941)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (939)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (937)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module SequenceRecorder (936)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (933)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (931)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (929)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (927)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module WebMMedia (925)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (923)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (921)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (919)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (917)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (915)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (913)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (911)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (909)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module SmartSnapping (907)
+[2023.01.24-22.31.16:269][424]LogModuleManager: Shutting down and abandoning module SessionServices (905)
+[2023.01.24-22.31.16:270][424]LogModuleManager: Shutting down and abandoning module MeshPaint (903)
+[2023.01.24-22.31.16:270][424]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (901)
+[2023.01.24-22.31.16:270][424]LogModuleManager: Shutting down and abandoning module PlacementMode (900)
+[2023.01.24-22.31.16:270][424]LogModuleManager: Shutting down and abandoning module FoliageEdit (897)
+[2023.01.24-22.31.16:270][424]LogModuleManager: Shutting down and abandoning module LandscapeEditor (895)
+[2023.01.24-22.31.16:271][424]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (893)
+[2023.01.24-22.31.16:271][424]LogModuleManager: Shutting down and abandoning module ActorPickerMode (891)
+[2023.01.24-22.31.16:271][424]LogModuleManager: Shutting down and abandoning module ViewportSnapping (889)
+[2023.01.24-22.31.16:271][424]LogModuleManager: Shutting down and abandoning module ViewportInteraction (887)
+[2023.01.24-22.31.16:271][424]LogModuleManager: Shutting down and abandoning module ClothPainter (885)
+[2023.01.24-22.31.16:271][424]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (884)
+[2023.01.24-22.31.16:271][424]LogModuleManager: Shutting down and abandoning module LogVisualizer (881)
+[2023.01.24-22.31.16:272][424]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (879)
+[2023.01.24-22.31.16:272][424]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (877)
+[2023.01.24-22.31.16:272][424]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (876)
+[2023.01.24-22.31.16:272][424]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (874)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (871)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (869)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (867)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (865)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module AnimationSettings (863)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (861)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module CSVtoSVG (859)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (857)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module EditorConfig (855)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (853)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module EditorFramework (851)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (849)
+[2023.01.24-22.31.16:501][424]LogModuleManager: Shutting down and abandoning module TraceInsights (847)
+[2023.01.24-22.31.16:506][424]MemoryProfiler: Shutdown
+[2023.01.24-22.31.16:507][424]NetworkingProfiler: Shutdown
+[2023.01.24-22.31.16:507][424]LoadingProfiler: Shutdown
+[2023.01.24-22.31.16:507][424]TimingProfiler: Shutdown
+[2023.01.24-22.31.16:508][424]LogModuleManager: Shutting down and abandoning module TraceServices (846)
+[2023.01.24-22.31.16:509][424]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (843)
+[2023.01.24-22.31.16:509][424]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (842)
+[2023.01.24-22.31.16:509][424]LogModuleManager: Shutting down and abandoning module InputBindingEditor (839)
+[2023.01.24-22.31.16:509][424]LogModuleManager: Shutting down and abandoning module MergeActors (837)
+[2023.01.24-22.31.16:510][424]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (835)
+[2023.01.24-22.31.16:510][424]LogModuleManager: Shutting down and abandoning module LocalizationService (834)
+[2023.01.24-22.31.16:510][424]LogModuleManager: Shutting down and abandoning module HardwareTargeting (831)
+[2023.01.24-22.31.16:510][424]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (829)
+[2023.01.24-22.31.16:510][424]LogModuleManager: Shutting down and abandoning module UndoHistory (827)
+[2023.01.24-22.31.16:511][424]LogModuleManager: Shutting down and abandoning module XmlParser (825)
+[2023.01.24-22.31.16:511][424]LogModuleManager: Shutting down and abandoning module Blutility (823)
+[2023.01.24-22.31.16:511][424]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (821)
+[2023.01.24-22.31.16:511][424]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (820)
+[2023.01.24-22.31.16:512][424]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (817)
+[2023.01.24-22.31.16:512][424]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (816)
+[2023.01.24-22.31.16:512][424]LogModuleManager: Shutting down and abandoning module SettingsEditor (813)
+[2023.01.24-22.31.16:512][424]LogModuleManager: Shutting down and abandoning module ProjectLauncher (811)
+[2023.01.24-22.31.16:512][424]LogModuleManager: Shutting down and abandoning module SessionFrontend (809)
+[2023.01.24-22.31.16:512][424]LogModuleManager: Shutting down and abandoning module ProfilerClient (807)
+[2023.01.24-22.31.16:512][424]LogModuleManager: Shutting down and abandoning module DeviceManager (805)
+[2023.01.24-22.31.16:512][424]LogModuleManager: Shutting down and abandoning module AutomationController (803)
+[2023.01.24-22.31.16:512][424]LogModuleManager: Shutting down and abandoning module AutomationWindow (801)
+[2023.01.24-22.31.16:513][424]LogModuleManager: Shutting down and abandoning module Layers (799)
+[2023.01.24-22.31.16:514][424]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (797)
+[2023.01.24-22.31.16:514][424]LogModuleManager: Shutting down and abandoning module DetailCustomizations (795)
+[2023.01.24-22.31.16:514][424]LogModuleManager: Shutting down and abandoning module PackagesDialog (793)
+[2023.01.24-22.31.16:514][424]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (791)
+[2023.01.24-22.31.16:515][424]LogModuleManager: Shutting down and abandoning module Persona (789)
+[2023.01.24-22.31.16:516][424]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (788)
+[2023.01.24-22.31.16:516][424]LogModuleManager: Shutting down and abandoning module AnimGraph (786)
+[2023.01.24-22.31.16:516][424]LogModuleManager: Shutting down and abandoning module Kismet (783)
+[2023.01.24-22.31.16:516][424]LogModuleManager: Shutting down and abandoning module KismetWidgets (782)
+[2023.01.24-22.31.16:516][424]LogModuleManager: Shutting down and abandoning module GraphEditor (779)
+[2023.01.24-22.31.16:517][424]LogModuleManager: Shutting down and abandoning module StructViewer (777)
+[2023.01.24-22.31.16:517][424]LogModuleManager: Shutting down and abandoning module ClassViewer (775)
+[2023.01.24-22.31.16:517][424]LogModuleManager: Shutting down and abandoning module NaniteTools (773)
+[2023.01.24-22.31.16:517][424]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (771)
+[2023.01.24-22.31.16:517][424]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (769)
+[2023.01.24-22.31.16:517][424]LogModuleManager: Shutting down and abandoning module SourceControlWindows (767)
+[2023.01.24-22.31.16:517][424]LogModuleManager: Shutting down and abandoning module OutputLog (765)
+[2023.01.24-22.31.16:519][424]LogModuleManager: Shutting down and abandoning module Documentation (763)
+[2023.01.24-22.31.16:519][424]LogModuleManager: Shutting down and abandoning module LiveCoding (761)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (759)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module MovieScene (757)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (755)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (753)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (751)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module AudioMixer (750)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module AudioMixerCore (749)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module LauncherPlatform (745)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module AnalyticsET (743)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module PortalServices (741)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module PortalRpc (739)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module MessagingRpc (737)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module AIModule (735)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module GameplayDebugger (734)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module AITestSuite (732)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module NavigationSystem (730)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module DataLayerEditor (727)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module EditorWidgets (726)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (723)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (721)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module TypedElementFramework (719)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (717)
+[2023.01.24-22.31.16:530][424]LogModuleManager: Shutting down and abandoning module ProfilerService (715)
+[2023.01.24-22.31.16:684][424]LogModuleManager: Shutting down and abandoning module TaskGraph (713)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (711)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module MegascansPlugin (709)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module Bridge (707)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (705)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (703)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (701)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (699)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module CollectionManager (698)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module LightMixer (695)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (693)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module SequencerScripting (691)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module TemplateSequence (689)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (687)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module InterchangeTests (685)
+[2023.01.24-22.31.16:685][424]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (683)
+[2023.01.24-22.31.16:686][424]LogModuleManager: Shutting down and abandoning module AlembicImporter (681)
+[2023.01.24-22.31.16:686][424]LogModuleManager: Shutting down and abandoning module AlembicLibrary (680)
+[2023.01.24-22.31.16:686][424]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (677)
+[2023.01.24-22.31.16:687][424]LogModuleManager: Shutting down and abandoning module UVEditorTools (675)
+[2023.01.24-22.31.16:687][424]LogModuleManager: Shutting down and abandoning module UVEditor (673)
+[2023.01.24-22.31.16:688][424]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (671)
+[2023.01.24-22.31.16:688][424]LogOpenImageDenoise: OIDN shutting down
+[2023.01.24-22.31.16:688][424]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (669)
+[2023.01.24-22.31.16:689][424]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (667)
+[2023.01.24-22.31.16:689][424]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (665)
+[2023.01.24-22.31.16:690][424]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (663)
+[2023.01.24-22.31.16:690][424]LogModuleManager: Shutting down and abandoning module MeshLODToolset (661)
+[2023.01.24-22.31.16:690][424]LogModuleManager: Shutting down and abandoning module LandmassEditor (659)
+[2023.01.24-22.31.16:690][424]LogModuleManager: Shutting down and abandoning module Landmass (657)
+[2023.01.24-22.31.16:690][424]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (655)
+[2023.01.24-22.31.16:690][424]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (653)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (651)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (649)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (647)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (646)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (644)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (641)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module Iris (639)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module DataflowNodes (637)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module DataflowEditor (635)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (633)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (631)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module ChaosNiagara (629)
+[2023.01.24-22.31.16:691][424]LogModuleManager: Shutting down and abandoning module FractureEditor (627)
+[2023.01.24-22.31.16:692][424]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (625)
+[2023.01.24-22.31.16:692][424]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (623)
+[2023.01.24-22.31.16:692][424]LogModuleManager: Shutting down and abandoning module AutomationUtils (621)
+[2023.01.24-22.31.16:692][424]LogModuleManager: Shutting down and abandoning module BackChannel (619)
+[2023.01.24-22.31.16:692][424]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (617)
+[2023.01.24-22.31.16:692][424]LogModuleManager: Shutting down and abandoning module PluginBrowser (615)
+[2023.01.24-22.31.16:692][424]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (613)
+[2023.01.24-22.31.16:692][424]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (611)
+[2023.01.24-22.31.16:692][424]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (609)
+[2023.01.24-22.31.16:692][424]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (607)
+[2023.01.24-22.31.16:693][424]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (605)
+[2023.01.24-22.31.16:693][424]LogModuleManager: Shutting down and abandoning module StylusInput (603)
+[2023.01.24-22.31.16:693][424]LogModuleManager: Shutting down and abandoning module GLTFImporter (601)
+[2023.01.24-22.31.16:693][424]LogModuleManager: Shutting down and abandoning module GLTFCore (599)
+[2023.01.24-22.31.16:693][424]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (597)
+[2023.01.24-22.31.16:693][424]LogModuleManager: Shutting down and abandoning module EditorDebugTools (595)
+[2023.01.24-22.31.16:693][424]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (593)
+[2023.01.24-22.31.16:694][424]LogModuleManager: Shutting down and abandoning module CurveEditorTools (591)
+[2023.01.24-22.31.16:694][424]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (589)
+[2023.01.24-22.31.16:694][424]LogModuleManager: Shutting down and abandoning module CryptoKeys (587)
+[2023.01.24-22.31.16:694][424]LogModuleManager: Shutting down and abandoning module TakeSequencer (585)
+[2023.01.24-22.31.16:694][424]LogModuleManager: Shutting down and abandoning module TakeMovieScene (583)
+[2023.01.24-22.31.16:694][424]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (581)
+[2023.01.24-22.31.16:694][424]LogModuleManager: Shutting down and abandoning module VariantManager (579)
+[2023.01.24-22.31.16:695][424]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (578)
+[2023.01.24-22.31.16:695][424]LogModuleManager: Shutting down and abandoning module GLTFMaterialBaking (575)
+[2023.01.24-22.31.16:695][424]LogModuleManager: Shutting down and abandoning module GLTFMaterialAnalyzer (573)
+[2023.01.24-22.31.16:695][424]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (569)
+[2023.01.24-22.31.16:695][424]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (567)
+[2023.01.24-22.31.16:695][424]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (565)
+[2023.01.24-22.31.16:695][424]LogModuleManager: Shutting down and abandoning module UObjectPlugin (563)
+[2023.01.24-22.31.16:695][424]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (561)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module PluginUtils (559)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (557)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module DumpGPUServices (555)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (553)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module GitSourceControl (551)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (549)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (547)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module ControlRigSpline (545)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (543)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (541)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module SynthesisEditor (539)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (537)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module ResonanceAudio (535)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (533)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (531)
+[2023.01.24-22.31.16:696][424]LogModuleManager: Shutting down and abandoning module ModelingOperators (529)
+[2023.01.24-22.31.16:697][424]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (527)
+[2023.01.24-22.31.16:697][424]LogModuleManager: Shutting down and abandoning module ModelingComponents (525)
+[2023.01.24-22.31.16:697][424]LogModuleManager: Shutting down and abandoning module GeometryFramework (524)
+[2023.01.24-22.31.16:697][424]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (521)
+[2023.01.24-22.31.16:697][424]LogModuleManager: Shutting down and abandoning module MeshModelingTools (519)
+[2023.01.24-22.31.16:697][424]LogModuleManager: Shutting down and abandoning module InputDebugging (517)
+[2023.01.24-22.31.16:697][424]LogModuleManager: Shutting down and abandoning module GooglePAD (515)
+[2023.01.24-22.31.16:697][424]LogModuleManager: Shutting down and abandoning module DynamicMesh (513)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (511)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (509)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module GeometryCache (507)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (505)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (503)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (501)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module AudioCapture (499)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (498)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module AssetTags (495)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (493)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module AppleImageUtils (491)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (489)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module AndroidPermission (487)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module MediaCompositing (485)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (483)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module MediaPlate (481)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (479)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (477)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module ImgMedia (475)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (473)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (471)
+[2023.01.24-22.31.16:698][424]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (469)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InterchangePipelines (467)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InterchangeExport (465)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InterchangeMessages (463)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InterchangeImport (461)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (459)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InterchangeNodes (457)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (455)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (453)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (451)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InterchangeEditor (449)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (447)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (445)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module Paper2DEditor (443)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (441)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module TraceUtilities (439)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (437)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (435)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module InputEditor (433)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (431)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module ActorSequence (429)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (427)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module Niagara (425)
+[2023.01.24-22.31.16:699][424]LogModuleManager: Shutting down and abandoning module NiagaraEditor (424)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module NiagaraCore (421)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (419)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module PBIK (417)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module FullBodyIK (415)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (413)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module TakeRecorder (412)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module ChaosCaching (409)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (407)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module FacialAnimation (405)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module DataValidation (403)
+[2023.01.24-22.31.16:701][424]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (401)
+[2023.01.24-22.31.16:702][424]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (399)
+[2023.01.24-22.31.16:702][424]LogModuleManager: Shutting down and abandoning module LevelEditor (398)
+[2023.01.24-22.31.16:708][424]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (397)
+[2023.01.24-22.31.16:708][424]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (395)
+[2023.01.24-22.31.16:708][424]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (393)
+[2023.01.24-22.31.16:708][424]LogModuleManager: Shutting down and abandoning module MainFrame (391)
+[2023.01.24-22.31.16:708][424]LogModuleManager: Shutting down and abandoning module HotReload (390)
+[2023.01.24-22.31.16:708][424]LogModuleManager: Shutting down and abandoning module ContentBrowser (386)
+[2023.01.24-22.31.16:708][424]LogModuleManager: Shutting down and abandoning module ContentBrowserData (385)
+[2023.01.24-22.31.16:708][424]LogModuleManager: Shutting down and abandoning module TreeMap (382)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (379)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (377)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module AnimationSharing (375)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (373)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module ControlRig (371)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module LevelSequence (370)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module GameplayCameras (367)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (365)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module IKRig (363)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module Synthesis (361)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module SignificanceManager (359)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module SoundFields (357)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (355)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (353)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module MetasoundEditor (351)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module ToolMenus (350)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module AudioWidgets (348)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (347)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (343)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module MetasoundEngine (341)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module WaveTable (340)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (338)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (335)
+[2023.01.24-22.31.16:709][424]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (333)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (331)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (329)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (327)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (325)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module CableComponent (323)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (321)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (320)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (317)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module SignalProcessing (316)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (313)
+[2023.01.24-22.31.16:710][424]LogModuleManager: Shutting down and abandoning module TcpMessaging (311)
+[2023.01.24-22.31.16:811][424]LogModuleManager: Shutting down and abandoning module UdpMessaging (309)
+[2023.01.24-22.31.16:912][424]LogModuleManager: Shutting down and abandoning module Paper2D (307)
+[2023.01.24-22.31.16:912][424]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (305)
+[2023.01.24-22.31.16:912][424]LogModuleManager: Shutting down and abandoning module EnhancedInput (303)
+[2023.01.24-22.31.16:912][424]LogModuleManager: Shutting down and abandoning module BlueprintMaterialTextureNodes (301)
+[2023.01.24-22.31.16:912][424]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (299)
+[2023.01.24-22.31.16:912][424]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (297)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module AndroidFileServer (295)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (293)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module PacketHandler (291)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module TimeManagement (289)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module AnimationDataController (287)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (285)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (283)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module MediaAssets (281)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module Overlay (279)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module OverlayEditor (278)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module VREditor (275)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module StringTableEditor (273)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (271)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (269)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module FunctionalTesting (267)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (265)
+[2023.01.24-22.31.16:914][424]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (264)
+[2023.01.24-22.31.16:915][424]LogModuleManager: Shutting down and abandoning module UMG (261)
+[2023.01.24-22.31.16:915][424]LogModuleManager: Shutting down and abandoning module UMGEditor (260)
+[2023.01.24-22.31.16:915][424]LogModuleManager: Shutting down and abandoning module EditorStyle (255)
+[2023.01.24-22.31.16:915][424]LogModuleManager: Shutting down and abandoning module SlateReflector (253)
+[2023.01.24-22.31.16:916][424]LogModuleManager: Shutting down and abandoning module Slate (251)
+[2023.01.24-22.31.16:916][424]LogModuleManager: Shutting down and abandoning module SlateCore (249)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (247)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (245)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module UnrealEd (243)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module MRMesh (241)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module Messaging (239)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (237)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (235)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module Networking (233)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module Core (231)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module MaterialEditor (229)
+[2023.01.24-22.31.16:917][424]LogModuleManager: Shutting down and abandoning module MovieSceneTools (227)
+[2023.01.24-22.31.16:918][424]LogModuleManager: Shutting down and abandoning module CurveEditor (226)
+[2023.01.24-22.31.16:918][424]LogModuleManager: Shutting down and abandoning module Sequencer (224)
+[2023.01.24-22.31.16:919][424]LogModuleManager: Shutting down and abandoning module KismetCompiler (221)
+[2023.01.24-22.31.16:919][424]LogModuleManager: Shutting down and abandoning module MeshBuilder (219)
+[2023.01.24-22.31.16:919][424]LogModuleManager: Shutting down and abandoning module NaniteBuilder (217)
+[2023.01.24-22.31.16:920][424]LogModuleManager: Shutting down and abandoning module MeshUtilities (215)
+[2023.01.24-22.31.16:920][424]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (214)
+[2023.01.24-22.31.16:920][424]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (213)
+[2023.01.24-22.31.16:920][424]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (212)
+[2023.01.24-22.31.16:920][424]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (210)
+[2023.01.24-22.31.16:921][424]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (208)
+[2023.01.24-22.31.16:922][424]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (206)
+[2023.01.24-22.31.16:922][424]LogModuleManager: Shutting down and abandoning module MaterialBaking (202)
+[2023.01.24-22.31.16:922][424]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (199)
+[2023.01.24-22.31.16:933][424]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (195)
+[2023.01.24-22.31.16:933][424]LogModuleManager: Shutting down and abandoning module DerivedDataCache (193)
+[2023.01.24-22.31.16:941][424]LogModuleManager: Shutting down and abandoning module TargetPlatform (191)
+[2023.01.24-22.31.16:941][424]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (190)
+[2023.01.24-22.31.16:941][424]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (188)
+[2023.01.24-22.31.16:941][424]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (186)
+[2023.01.24-22.31.16:942][424]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (184)
+[2023.01.24-22.31.16:942][424]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (182)
+[2023.01.24-22.31.16:942][424]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (180)
+[2023.01.24-22.31.16:942][424]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (178)
+[2023.01.24-22.31.16:942][424]LogModuleManager: Shutting down and abandoning module AudioFormatBink (176)
+[2023.01.24-22.31.16:942][424]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (174)
+[2023.01.24-22.31.16:942][424]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (167)
+[2023.01.24-22.31.16:943][424]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (165)
+[2023.01.24-22.31.16:943][424]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (163)
+[2023.01.24-22.31.16:943][424]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (161)
+[2023.01.24-22.31.16:943][424]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (159)
+[2023.01.24-22.31.16:943][424]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (157)
+[2023.01.24-22.31.16:943][424]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (155)
+[2023.01.24-22.31.16:943][424]LogModuleManager: Shutting down and abandoning module TextureFormat (153)
+[2023.01.24-22.31.16:943][424]LogModuleManager: Shutting down and abandoning module ImageWrapper (152)
+[2023.01.24-22.31.16:944][424]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (150)
+[2023.01.24-22.31.16:944][424]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (148)
+[2023.01.24-22.31.16:944][424]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (146)
+[2023.01.24-22.31.16:944][424]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (144)
+[2023.01.24-22.31.16:944][424]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (142)
+[2023.01.24-22.31.16:944][424]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (140)
+[2023.01.24-22.31.16:944][424]LogModuleManager: Shutting down and abandoning module TurnkeySupport (137)
+[2023.01.24-22.31.16:944][424]LogModuleManager: Shutting down and abandoning module InputCore (134)
+[2023.01.24-22.31.16:944][424]LogModuleManager: Shutting down and abandoning module Settings (132)
+[2023.01.24-22.31.16:944][424]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (130)
+[2023.01.24-22.31.16:945][424]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (128)
+[2023.01.24-22.31.16:945][424]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (127)
+[2023.01.24-22.31.16:945][424]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2023.01.24-22.31.16:945][424]LogModuleManager: Shutting down and abandoning module GeometryCore (123)
+[2023.01.24-22.31.16:945][424]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (120)
+[2023.01.24-22.31.16:945][424]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (119)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module AVEncoder (118)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module D3D12RHI (114)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module AISupportModule (112)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (110)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module NiagaraShader (108)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module ChaosCloth (106)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module VariantManagerContent (104)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module DatasmithContent (102)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (100)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module GLTFExporter (98)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (96)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (94)
+[2023.01.24-22.31.16:946][424]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (92)
+[2023.01.24-22.31.16:948][424]LogModuleManager: Shutting down and abandoning module XMPP (87)
+[2023.01.24-22.31.16:948][424]LogModuleManager: Shutting down and abandoning module WebSockets (86)
+[2023.01.24-22.31.16:976][424]LogModuleManager: Shutting down and abandoning module HTTP (83)
+[2023.01.24-22.31.16:976][424]LogHttp: Warning: [FHttpManager::Flush] FlushReason was Shutdown. Unbinding delegates for 1 outstanding Http Requests:
+[2023.01.24-22.31.16:976][424]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2672FD36-4B3B-5125-7740-6C8939E70675%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=8aa8aa614fdf3ad6de94b1a8b60d7f6e%7C1fe25512a346415c8a1341ef7b12dd26%7C5e21e409-1677-434f-8efc-9eddc14d8bb8&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.01.24-22.31.16:979][424]LogModuleManager: Shutting down and abandoning module SSL (82)
+[2023.01.24-22.31.16:980][424]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (78)
+[2023.01.24-22.31.16:980][424]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (76)
+[2023.01.24-22.31.16:981][424]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (74)
+[2023.01.24-22.31.16:981][424]LogModuleManager: Shutting down and abandoning module PixWinPlugin (72)
+[2023.01.24-22.31.16:981][424]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (70)
+[2023.01.24-22.31.16:981][424]LogModuleManager: Shutting down and abandoning module ChunkDownloader (68)
+[2023.01.24-22.31.16:982][424]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (66)
+[2023.01.24-22.31.16:982][424]LogModuleManager: Shutting down and abandoning module WmfMedia (64)
+[2023.01.24-22.31.16:985][424]LogModuleManager: Shutting down and abandoning module Media (63)
+[2023.01.24-22.31.16:986][424]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (60)
+[2023.01.24-22.31.16:986][424]LogModuleManager: Shutting down and abandoning module DesktopPlatform (58)
+[2023.01.24-22.31.16:986][424]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (56)
+[2023.01.24-22.31.16:986][424]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (54)
+[2023.01.24-22.31.16:986][424]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (52)
+[2023.01.24-22.31.16:986][424]LogModuleManager: Shutting down and abandoning module PlatformCrypto (50)
+[2023.01.24-22.31.16:986][424]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (48)
+[2023.01.24-22.31.16:986][424]LogModuleManager: Shutting down and abandoning module SourceControl (47)
+[2023.01.24-22.31.16:986][424]LogModuleManager: Shutting down and abandoning module XGEController (44)
+[2023.01.24-22.31.16:987][424]LogXGEController: Cleaning working directory: C:/Users/T352T828/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2023.01.24-22.31.16:987][424]LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+[2023.01.24-22.31.16:987][424]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2023.01.24-22.31.16:987][424]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2023.01.24-22.31.16:988][424]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2023.01.24-22.31.16:988][424]LogModuleManager: Shutting down and abandoning module Virtualization (34)
+[2023.01.24-22.31.16:988][424]LogModuleManager: Shutting down and abandoning module MessageLog (33)
+[2023.01.24-22.31.16:988][424]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.01.24-22.31.16:988][424]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.01.24-22.31.16:988][424]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.01.24-22.31.16:988][424]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.01.24-22.31.16:989][424]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.01.24-22.31.16:989][424]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.01.24-22.31.16:989][424]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.01.24-22.31.16:989][424]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.01.24-22.31.16:989][424]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.01.24-22.31.16:989][424]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.01.24-22.31.16:989][424]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.01.24-22.31.16:989][424]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.01.24-22.31.16:990][424]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.01.24-22.31.16:990][424]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.01.24-22.31.16:990][424]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.01.24-22.31.17:163][424]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.01.24-22.31.17:225][424]LogExit: Exiting.
+[2023.01.24-22.31.17:234][424]Log file closed, 01/24/23 16:31:17
