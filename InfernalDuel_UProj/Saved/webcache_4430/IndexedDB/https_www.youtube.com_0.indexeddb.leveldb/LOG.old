@@ -1,0 +1,6 @@
+2023/01/28-17:51:25.632 3424 Creating DB D:/InfernalDuel/InfernalDuel_UProj/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2023/01/28-17:51:25.824 3424 Reusing MANIFEST D:/InfernalDuel/InfernalDuel_UProj/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/28-17:52:58.434 3de8 Level-0 table #5: started
+2023/01/28-17:52:58.528 3de8 Level-0 table #5: 7564 bytes OK
+2023/01/28-17:52:58.572 3de8 Delete type=0 #3
+2023/01/28-17:52:58.590 3de8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
