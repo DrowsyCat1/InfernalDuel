@@ -1,2 +1,3 @@
-2023/01/28-17:49:18.296 1ebc Creating DB D:/InfernalDuel/InfernalDuel_UProj/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2023/01/28-17:49:18.527 1ebc Reusing MANIFEST D:/InfernalDuel/InfernalDuel_UProj/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2023/01/29-16:10:45.883 2198 Reusing MANIFEST D:/InfernalDuel/InfernalDuel_UProj/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2023/01/29-16:10:45.941 2198 Recovering log #3
+2023/01/29-16:10:45.970 2198 Reusing old log D:/InfernalDuel/InfernalDuel_UProj/Saved/webcache_4430\Local Storage\leveldb/000003.log 
