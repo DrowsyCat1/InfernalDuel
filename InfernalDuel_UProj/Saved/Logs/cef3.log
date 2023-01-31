@@ -1,1 +1,45 @@
-[0129/184154.325:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0131/131348.154:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0131/131348.934:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0131/131348.934:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131348.935:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131348.935:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131348.935:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131348.935:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131348.935:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131348.935:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131349.049:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131349.050:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131349.051:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131349.053:WARNING:storage_block-inl.h(146)] Failed data load.
+[0131/131349.054:ERROR:entry_impl.cc(998)] Failed to save user data
+[0131/131349.054:ERROR:entry_impl.cc(998)] Failed to save user data
+[0131/131352.898:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0131/131548.372:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 124
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 123
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 110 to 122
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 121
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 120
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 111 to 119
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
+[0131/131600.498:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
+[0131/131600.499:ERROR:audio_rtp_receiver.cc(88)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 124
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 123
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 110 to 122
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 121
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 120
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 111 to 119
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
+[0131/131617.908:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
+[0131/131617.909:ERROR:audio_rtp_receiver.cc(88)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[0131/131621.022:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:/Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:/Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0131/131621.025:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:/Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:/Users/T352T828/OneDrive - Wichita State University/Documents/InfernalDuel/InfernalDuel_UProj/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
